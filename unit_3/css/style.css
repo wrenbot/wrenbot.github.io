@@ -1,0 +1,48 @@
+body {
+	background: #ED4EFF;
+	font-family: "Architects Daughter";
+	font-size: 30px;
+	color: #FFF;
+	padding: 10px;
+	margin: 5px;
+}
+
+h1 {
+	font-family: Barrio;
+	color: #91FF35;
+	font-size: 100px;
+	text-align: center;
+	background-image: url("https://thestacker.com/sites/default/files/styles/properly_sized_image/public/00001510_2.png?itok=fHTvp9Dv");
+	background-size: cover;
+	padding: 20px;
+	margin: 5px;
+}
+
+#slogan {
+	font-family: "Arial Black";
+	font-style: italic;
+	font-weight: bold;
+	font-size: 40px;
+	color: #000;
+	text-align: center;
+	margin: 5px;
+	}
+
+
+a:link {
+	font-family: Arial;
+	font-style: normal;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+	margin: 5px;
+}
+
+ul {margin: 5px;
+}
+
+p {margin: 5px;
+}
+
+hr {border-color: #000;
+}
