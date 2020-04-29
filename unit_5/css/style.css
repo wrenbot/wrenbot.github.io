@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Love+Ya+Like+A+Sister&family=Quicksand:wght@400;600&display=swap');
+
+header {
+	background-image: url("../images/milk_and_cereal.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+body {
+	background-color: #95DBED;
+	font-size: 1.5em; /*1em = 16px*/
+	color: #1B0541;
+}
+
+h1 {
+	color: #FFF;
+	font-family: "Barrio", cursive;
+	font-size: 200px;
+	text-align: left;
+}
+
+h2 {
+	color: #FFF;
+	font-family: "Barrio", cursive;
+	font-size: 50px;
+}
+
+h3 {
+	color: #FFE237;
+	font-family: "Love Ya Like A Sister", cursive;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #815FE8;
+	font-family: "Love Ya Like A Sister", cursive;
+	font-size: 2em;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	font-family: "Quicksand", sans-serif;
+	line-height: 1.5em;
+}
+
+ul {
+	font-family: "Quicksand", sans-serif
+}
+
+a {
+	font-family: "Quicksand", sans-serif;
+	line-height: 1.5em;
+	color: #FFF;
+	text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+}
+
+.navlinks {
+	color: #2EBF72;
+	font-family: "Quicksand", sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding-right: 50px;
+}
+
+.intro {
+	width: 30em;
+	margin: 2em auto;
+}
+
+.menu {
+	width: 30em;
+	margin: 2em auto;
+}
