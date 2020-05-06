@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Love+Ya+Like+A+Sister&family=Quicksand:wght@400;600&display=swap');
+
+body {
+	background-color: #95DBED;
+	font-size: 1.5em; /*1em = 16px*/
+	color: #1B0541;
+}
+
+nav {
+	padding: 20px;
+	text-align: center;
+}
+
+/*LoVe HAte*/
+
+nav a:link {
+	color: #2EBF72;
+	font-family: "Quicksand", sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-decoration: none;
+	margin: 0 32px;
+}
+
+nav a:visited {
+	color: #2EBF72;
+}
+
+nav a:hover {
+	border-bottom: 1px solid #FFF;
+}
+
+nav a:active {
+	color: #2EBF72;	
+}
+
+header {
+	background-image: url(../images/milk_and_cereal.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 5px;
+}
+
+h1 {
+	color: #815FE8;
+	font-family: "Barrio", cursive;
+	font-size: 200px;
+	text-align: left;
+	line-height: 1em;
+}
+
+#slogan {
+	color: #815FE8;
+	font-family: "Barrio", cursive;
+	font-size: 60px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+h2 {
+	color: #FFE237;
+	font-family: "Love Ya Like A Sister", cursive;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+}
+
+h3 {
+	color: #FFF;
+	font-family: "Love Ya Like A Sister", cursive;
+	font-size: 2em;
+	margin: .5em auto;
+}
+
+h4 {
+	color: #FFF;
+	font-family: "Love Ya Like A Sister", cursive;
+	font-size: 1.25em;
+	margin: .5em auto;
+}
+
+p {
+	font-family: "Quicksand", sans-serif;
+	line-height: 1.5em;
+}
+
+ul {
+	font-family: "Quicksand", sans-serif;
+	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	line-height: 1.5em;
+}
+
+a {
+	font-family: "Quicksand", sans-serif;
+	line-height: 2em;
+	color: #FFF;
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #815FE8;
+	border: 3px black solid;
+	width: 30em;
+	padding: 10px;
+	margin: 2em auto;
+	line-height: 1em;
+	text-align: center;
+	clear: both;
+}
+
+img {
+	width: 75%;
+	height: 75%;
+}
+
+.intro {
+	border: 3px green dashed;
+	padding: 20px;
+	width: 50em;
+	margin: 2em auto;
+	text-align: left;
+}
+
+.special {
+	background-image: url(../images/muddy_buddies.jpg);
+	background-size: 100%;
+	padding: 20px;
+	width: 30em;
+	margin: 2em auto;
+	text-align: center;
+	color: #FF3F93;
+	font-weight: bold;
+}
+
+#simple {
+	color: #815FE8;
+	font-family: "Barrio", cursive;
+	font-size: 60px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+.clearfix: after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
