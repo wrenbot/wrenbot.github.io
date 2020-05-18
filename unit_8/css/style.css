@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Love+Ya+Like+A+Sister&family=Quicksand:wght@400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	background-color: #F2F2F2;
+	font-size: 1.5em; /*1em = 16px*/
+	color: #1B0541;
+}
+
+nav {
+	padding: 20px;
+	text-align: center;
+}
+
+/*LoVe HAte*/
+
+nav a:link {
+	color: #2EBF72;
+	font-family: "Quicksand", sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-decoration: none;
+	margin: 0 32px;
+}
+
+nav a:visited {
+	color: #2EBF72;
+}
+
+nav a:hover {
+	border-bottom: 1px solid #FFF;
+}
+
+nav a:active {
+	color: #2EBF72;	
+}
+
+.hero-image {
+	background-image: url(../images/new_cover_photo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 75%;
+	height: 75%;
+	padding: 200px;
+}
+
+.hero-text {
+	text-align: center;
+	color: #0F0F0D;
+}
+
+h1 {
+	/*color: #815FE8;*/
+	font-family: "Barrio", cursive;
+	font-size: 100px;
+	line-height: .25em;
+}
+
+.slogan {
+	color: #815FE8;
+	font-family: "Barrio", cursive;
+	font-size: 60px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+h2 {
+	color: #FFE237;
+	font-family: "Love Ya Like A Sister", cursive;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+}
+
+h3 {
+	color: #FFF;
+	font-family: "Love Ya Like A Sister", cursive;
+	font-size: 2em;
+	margin: .5em auto;
+}
+
+h4 {
+	color: #000D0C;
+	font-family: "Love Ya Like A Sister", cursive;
+	font-size: 1.25em;
+	margin: .5em auto;
+}
+
+p {
+	font-family: "Quicksand", sans-serif;
+	line-height: 1.5em;
+}
+
+ul {
+	font-family: "Quicksand", sans-serif;
+	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	line-height: 1.5em;
+}
+
+a {
+	font-family: "Quicksand", sans-serif;
+	line-height: 2em;
+	color: #FFF;
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #815FE8;
+	border: 3px black solid;
+	width: 30em;
+	padding: 10px;
+	margin: 2em auto;
+	line-height: 1em;
+	text-align: center;
+	clear: both;
+	color: #000D0C;
+}
+
+img {
+	width: 75%;
+	height: 75%;
+}
+
+.intro {
+	border: 3px green dashed;
+	padding: 20px;
+	width: 36em;
+	margin: 2em auto;
+	text-align: left;
+	font-size: 1.1em;
+}
+
+.special {
+	background-color: #23388B;
+	background-size: 100%;
+	padding: 20px;
+	width: 30em;
+	margin: 2em auto;
+	text-align: center;
+	color: #C9B1A3;
+	font-weight: bold;
+}
+
+#simple {
+	color: #815FE8;
+	font-family: "Barrio", cursive;
+	font-size: 60px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#combo {
+	width: 34em;
+	margin: 2em auto;
+	text-align: center;
+}
