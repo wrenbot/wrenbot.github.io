@@ -53,7 +53,7 @@ h1 {
 h2 {
 	color: #FFE237;
 	font-family: "Balsamiq Sans", cursive;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-transform: uppercase;
 	padding: 0;
 	margin: 0;
@@ -62,7 +62,7 @@ h2 {
 h3 {
 	font-family: "Balsamiq Sans", cursive;
 	margin: .25em auto;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 h4 {
@@ -95,7 +95,7 @@ a {
 }
 
 footer {
-	background-color: #815FE8;
+	background-color: #D9042B;
 	border: 3px black solid;
 	width: 30em;
 	padding: 10px;
@@ -119,7 +119,7 @@ img {
 	background-image: url(../images/new_cover_photo.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 75%;
+	background-size: 100%;
 	padding: 200px;
 }
 
@@ -131,7 +131,7 @@ img {
 .slogan {
 	color: #D9042B;
 	font-family: "Barrio", cursive;
-	font-size: 60px;
+	font-size: 2.5em;
 	margin: 0;
 	text-align: center;
 }
@@ -168,6 +168,7 @@ img {
 	background-color: black;
 	color: #FFF;
 	width: 9em;
+	font-size: 2em;
 }
 
 .special a {
@@ -177,7 +178,7 @@ img {
 #simple {
 	color: #815FE8;
 	font-family: "Barrio", cursive;
-	font-size: 60px;
+	font-size: 4em;
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -203,4 +204,50 @@ img {
 	width: 34em;
 	margin: 2em auto;
 	text-align: center;
+}
+
+@media only screen and (max-width: 1360px) {
+	.hero-text {
+		width: 75%
+}
+}
+
+@media only screen and (max-width: 1330px) {
+	.special {
+		width: 75%;
+		background-image: none;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 1110px) {
+	.column {
+		float: none;
+		width: 75%;
+		margin: 2em auto;
+	}
+
+	#combo {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 875px) {
+	nav {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	footer {
+		width: 75%;
+		font-size: 75%;
+		line-height: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 592px) {
+	.special h2 {
+		width: 100%;
+	}
 }
