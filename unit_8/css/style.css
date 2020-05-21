@@ -43,7 +43,6 @@ nav a:active {
 }
 
 h1 {
-	/*color: #815FE8;*/
 	font-family: "Barrio", cursive;
 	font-size: 5em;
 	line-height: .25em;
@@ -118,7 +117,8 @@ img {
 	background-image: url(../images/new_cover_photo.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 90%;
+	position: relative;
 	padding: 200px;
 }
 
