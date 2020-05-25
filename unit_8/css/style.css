@@ -45,8 +45,9 @@ nav a:active {
 h1 {
 	font-family: "Barrio", cursive;
 	font-size: 5em;
-	line-height: .25em;
 	padding-bottom: 1em;
+	line-height: 1em;
+	display: block;
 }
 
 h2 {
@@ -117,14 +118,17 @@ img {
 	background-image: url(../images/new_cover_photo.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 90%;
-	position: relative;
-	padding: 200px;
+	background-size: cover;
+	height: 100%;
+	padding: 1.5em 0;
 }
 
 .hero-text {
 	text-align: center;
 	color: #0F0F0D;
+	line-height: 2em;
+	padding-top: 4em;
+	margin: 2em auto;
 }
 
 .slogan {
@@ -205,12 +209,6 @@ img {
 	text-align: center;
 }
 
-@media only screen and (max-width: 1360px) {
-	.hero-text {
-		width: 75%
-}
-}
-
 @media only screen and (max-width: 1330px) {
 	.special {
 		width: 75%;
@@ -220,6 +218,14 @@ img {
 }
 
 @media only screen and (max-width: 1110px) {
+	.hero-image {
+		height: 75%;
+	}
+
+	.hero-text {
+		padding-top: 2em;
+	}
+
 	.column {
 		float: none;
 		width: 75%;
@@ -234,6 +240,14 @@ img {
 @media only screen and (max-width: 875px) {
 	nav {
 		display: block;
+	}
+
+	.hero-image {
+		height: 50%;
+	}
+
+	.hero-text {
+		font-size: 50%;
 	}
 }
 
