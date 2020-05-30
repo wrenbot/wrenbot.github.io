@@ -9,60 +9,56 @@
 body {
 	background-color: #E5E6E8;
 	font-size: 1.5em; /*1em = 16px*/
+	position: relative;
 	color: #0F0F0D;
 }
 
 nav {
-	padding: 20px;
+	margin: auto;
 	text-align: center;
 }
 
 /*LoVe HAte*/
 
-nav a:link {
-	color: #D9042B;
+nav a {
 	font-family: "Balsamiq Sans", cursive;
-	text-transform: uppercase;
-	font-size: 1.5em;
+	color: #FFF;
+	background-color: #D9042B;
+	padding: 0 2em;
+	font-size: 1.25em;
+	display: inline-block;
+	width: 20%;
 	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-decoration: none;
-	margin: 0 32px;
-}
-
-nav a:visited {
-	color: #2EBF72;
 }
 
 nav a:hover {
-	border-bottom: 1px solid #FFF;
-}
-
-nav a:active {
-	color: #2EBF72;	
+	color: #000;
 }
 
 h1 {
 	font-family: "Barrio", cursive;
-	font-size: 5em;
-	padding-bottom: 1em;
+	font-size: 6em;
+	padding: .5em;
 	line-height: 1em;
-	display: block;
+	text-align: center;
 }
 
 h2 {
-	color: #FFE237;
-	font-family: "Balsamiq Sans", cursive;
-	font-size: 1.5em;
-	text-transform: uppercase;
-	padding: 0;
-	margin: 0;
+	color: #D9042B;
+	font-family: "Barrio", cursive;
+	font-size: 3em;
+	text-align: center;
 }
 
 h3 {
 	font-family: "Balsamiq Sans", cursive;
 	margin: .25em auto;
 	font-size: 1.5em;
+	padding: 0;
 }
 
 h4 {
@@ -75,7 +71,6 @@ h4 {
 p {
 	font-family: "Balsamiq Sans", cursive;
 	line-height: 1.5em;
-	max-width: 33em;
 	color: #000;
 }
 
@@ -96,22 +91,20 @@ a {
 
 footer {
 	background-color: #D9042B;
-	border: 3px black solid;
-	width: 30em;
-	padding: 10px;
+	color: #FFF;
+	padding-top: 10px;
 	margin: 2em auto;
-	line-height: 1em;
 	text-align: center;
 	clear: both;
 }
 
-footer h3, p, a {
+footer p,a {
 	color: #FFF;
+	text-align: center;
 }
 
 img {
 	width: 75%;
-	height: 75%;
 }
 
 .hero-image {
@@ -119,31 +112,20 @@ img {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100%;
+	min-height: 90vh;
 	padding: 1.5em 0;
 }
 
-.hero-text {
-	text-align: center;
-	color: #0F0F0D;
-	line-height: 2em;
-	padding-top: 4em;
-	margin: 2em auto;
-}
-
-.slogan {
-	color: #D9042B;
-	font-family: "Barrio", cursive;
-	font-size: 2.5em;
-	margin: 0;
-	text-align: center;
+.hero-text h3 {
+	text-align: left;
+	padding-left: 3.5em;
 }
 
 .intro {
 	border: 3px #49D2DF dashed;
-	padding: 20px;
-	max-width: 36em;
-	margin: 2em auto;
+	padding: 1em;
+	max-width: 43em;
+	margin: 1em auto;
 	text-align: left;
 	font-size: 1.1em;
 }
@@ -158,39 +140,47 @@ img {
 
 .special {
 	background: url(../images/muddy_buddies.jpg), #23388B;
-	background-size: 33%;
-	background-position: right;
+	background-size: 50%;
+	background-position: left;
 	background-repeat: no-repeat;
-	padding: 3.5em;
-	margin: 2em auto;
+	padding-top: 5em;
+	padding-bottom: 5em;
 	text-align: left;
 	color: #C9B1A3;
 }
 
 .special h2 {
-	background-color: black;
 	color: #FFF;
-	width: 9em;
+	font-family: "Balsamiq Sans", cursive;
 	font-size: 2em;
+	padding-left: 12em;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.special h3 {
+	padding-left: 22em;
+}
+
+.special p {
+	color: #FFF;
+	padding-left: 33em;
+	max-width: none;
 }
 
 .special a {
 	color: #D9042B;
+	padding-left: 33em;
 }
 
-#simple {
-	color: #815FE8;
-	font-family: "Barrio", cursive;
-	font-size: 4em;
-	padding: 0;
-	margin: 0;
-	text-align: center;
+.create {
+	padding-top: 4em;
+	padding-bottom: 1em;
 }
 
 .column {
 	float: left;
 	width: 33.33%;
-	padding-bottom: 1em;
 	text-align: center;
 }
 
@@ -204,9 +194,9 @@ img {
 }
 
 #combo {
-	width: 34em;
+	max-width: 34em;
 	margin: 2em auto;
-	text-align: center;
+	text-align: left;
 }
 
 @media only screen and (max-width: 1330px) {

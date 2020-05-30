@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Barrio&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #E5E6E8;
+	font-size: 1.5em; /*1em = 16px*/
+	position: relative;
+	color: #0F0F0D;
+}
+
+nav {
+	margin: auto;
+	text-align: center;
+}
+
+/*LoVe HAte*/
+
+nav a {
+	font-family: "Balsamiq Sans", cursive;
+	color: #FFF;
+	background-color: #D9042B;
+	padding: 0 2em;
+	font-size: 1.25em;
+	display: inline-block;
+	width: 20%;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+h1 {
+	font-family: "Barrio", cursive;
+	font-size: 6em;
+	padding: .5em;
+	line-height: 1em;
+	text-align: center;
+}
+
+h2 {
+	color: #D9042B;
+	font-family: "Barrio", cursive;
+	font-size: 3em;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Balsamiq Sans", cursive;
+	margin: .25em;
+	font-size: 1.5em;
+	padding: 0;
+}
+
+h4 {
+	color: #000D0C;
+	font-family: "Balsamiq Sans", cursive;
+	font-size: 1.25em;
+	margin: .5em auto;
+}
+
+p {
+	font-family: "Balsamiq Sans", cursive;
+	line-height: 1.5em;
+	color: #000;
+}
+
+ul {
+	font-family: "Balsamiq Sans", cursive;
+	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	line-height: 1.5em;
+}
+
+a {
+	font-family: "Balsamiq Sans", cursive;
+	line-height: 2em;
+	color: #D9042B;
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #D9042B;
+	color: #FFF;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin: 2em auto;
+	text-align: center;
+	clear: both;
+}
+
+footer p,a {
+	color: #FFF;
+	text-align: center;
+}
+
+img {
+	width: 75%;
+}
+
+.hero-image {
+	background-image: url(../images/new_cover_photo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 90vh;
+	padding: 1.5em 0;
+}
+
+.hero-text h3 {
+	text-align: left;
+	padding-left: 1em;
+	background-color: rgba(255, 255, 255, .5);
+	max-width: 14em;
+}
+
+.intro {
+	border: 3px #49D2DF dashed;
+	padding: 1em;
+	max-width: 36em;
+	margin: 1em auto;
+	text-align: left;
+	font-size: 1.1em;
+}
+
+.intro p {
+	color: #000;
+}
+
+.intro a {
+	color: #D9042B;
+}
+
+.special {
+	background: url(../images/muddy_buddies.jpg), #23388B;
+	background-size: 50%;
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	color: #C9B1A3;
+	padding-left: 32em;
+}
+
+.special h2 {
+	color: #FFF;
+	font-family: "Balsamiq Sans", cursive;
+	font-size: 2em;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.special p {
+	color: #FFF;
+	max-width: 90%;
+}
+
+.special a {
+	color: #D9042B;
+}
+
+.create {
+	padding-top: 4em;
+	padding-bottom: 1em;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#combo {
+	max-width: 34em;
+	margin: 2em auto;
+	text-align: left;
+}
+
+@media only screen and (max-width: 1300px) {
+	.hero-image {
+		min-height: 80vh;
+	}
+
+	.hero-text {
+		font-size: 80%;
+	}
+
+	.special {
+		padding-left: 28em;
+	}
+}
+
+@media only screen and (max-width: 1110px) {
+	.hero-image {
+		height: 75%;
+	}
+
+	.intro {
+		margin: 2em auto;
+	}
+
+	.special {
+		background-image: none;
+		padding-left: 3em;
+	}
+
+	.create {
+		padding: 5em 2em 0 2em;
+	}
+
+	.column {
+		float: none;
+		width: 75%;
+		margin: 2em auto;
+	}
+
+	#combo {
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.intro {
+		margin: 2em;
+	}
+}
+
+@media only screen and (max-width: 875px) {
+	nav {
+		font-size: .8em;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.hero-text {
+		font-size: 75%
+	}
+
+	footer {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+	.hero-image {
+		background: #49D2DF;
+		min-height: 40vh;
+	}
+
+	.hero-text {
+		font-size: 70%;
+	}
+}
+
+@media only screen and (max-width: 592px) {
+	body {
+		font-size: 90%;
+	}
+}
